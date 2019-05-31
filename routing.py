@@ -15,4 +15,4 @@ def dijkstra_generalized(graph, source, weight='weight',
     """
     Least-cost or widest paths via Dijkstra's algorithm.
     """
-	pass  # TODO: Please work from lab 1 code
+	pass  # TODO: Please work from Lab 1 code
