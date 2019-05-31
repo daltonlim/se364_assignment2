@@ -10,7 +10,7 @@ def crc(d, g):
 	# We'd prefer not to modify the argument in xor_at
     dcopy = d.copy()  
 	#
-	# TODO: compute and return remainder 'r'
+	# TODO: compute and return the remainder 'r'
 	#
 
 
