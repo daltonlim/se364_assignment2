@@ -28,7 +28,7 @@ ICMP_STRUCT_FIELDS = "BBHHH"  # for use with struct.pack/unpack
 
 
 #
-# TODO: Define the ChecksumError class
+# TODO: Define ChecksumError class
 #
 
 
