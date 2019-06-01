@@ -91,7 +91,7 @@ def ping(client_socket, dest_host, client_id, seq_no=0):
 	# 1. Call sendto() on socket to send packet to destination host
     # 2. Call recvfrom() on socket to receive datagram
 	#    (Note: A time-out exception might be raised here).
-    # 2. Store this_instant() at which datagram was received
+    # 2a. Store this_instant() at which datagram was received
 	# 3. Extract ICMP packet from datagram i.e. drop IP header (20 bytes)
 	#     e.g. "icmp_packet = datagram[20:]"
 	# 4. Compute checksum on ICMP response packet (header and payload);
